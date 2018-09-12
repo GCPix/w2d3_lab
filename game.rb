@@ -7,12 +7,6 @@ attr_accessor :guessed_letters, :hidden_word, :player
     @player = player
   end
 
-  def check_player_lives(player)
-    if
-    @player.lives == false
-    p "sorry you are out of lives"
-    end
-  end
 
   def play_game
     @hidden_word.create_initial_word_array

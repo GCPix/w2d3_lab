@@ -20,7 +20,7 @@ in game and player yes but again in the hidden_word section it became more about
 
 Are each of your methods tested? Did you find anything difficult to test?
 
-each method isn't tested at present because of everything above.  I do intend to finish this(not tonight).
+each method isn't tested at present because of everything above.  I do intend to finish this(not tonight).  I have had a problem writing tests that work for hidden_word, I keep getting undefined method, I am assuming I should be able to reuse functions but I don't know how.
 
 final comment:
 

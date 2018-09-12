@@ -28,8 +28,25 @@ def test_word_has_letter__false
 end
 
 def test_create_initial_word_array
-  actual = @guess_word.word.length == create_initial_word_array.length
 
-  assert_equal(true, actual)
+   array = @guess_word.word.create_initial_word_array
+
+   actual = array.length
+  assert_equal(7, actual)
+end
+
+def test_create_asterisk_array
+# array1 = #@guess_word.word.create_initial_word_array
+# result = @guess_word.create_asterisk_array(array1)
+#
+#   assert_equal(["*","*","*","*","*","*","*"], result)
+end
+
+def test_compare_guess_inital_word_array__true
+
+end
+
+def test_compare_guess_inital_word_array__false
+
 end
 end
