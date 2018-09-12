@@ -27,9 +27,9 @@ def test_word_has_letter__false
   assert_equal(false, result)
 end
 
-# def test_create_initial_word_array
-#   actual = @guess_word.word.count == create_initial_word_array.length
-#
-#   assert_equal(true, actual)
-# end
+def test_create_initial_word_array
+  actual = @guess_word.word.length == create_initial_word_array.length
+
+  assert_equal(true, actual)
+end
 end

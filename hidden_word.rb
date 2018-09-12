@@ -11,19 +11,20 @@ class HiddenWord
 
 def create_initial_word_array
 
-  array = hidden_word.split(“”)
+  array = @word.split(“”)
 end
 
 def create_asterisk_array(array)
   asterisk_array = []
    for letter in array
-       if letter == ” ”
-         asterisk_array.push(letter)
+       if letter == ' '
+         return letter
+         asterisk_array.push(" ")
        else
          asterisk_array.push(“*”)
        end
    end
-   return asterisk_array
+
 end
 
 def compare_guess_letter_to_word(asterisk_array, array, guess)
@@ -41,4 +42,5 @@ def compare_guess_letter_to_word(asterisk_array, array, guess)
      return true
    end
  end
+
 end
