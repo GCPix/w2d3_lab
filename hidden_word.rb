@@ -30,6 +30,7 @@ end
 def compare_guess_letter_to_word(asterisk_array, array, guess)
    for letter in array
      if letter == guess
+       count = letter.index
        asterisk_array.delete_at(count)
        asterisk_array.insert(count,guess)
      end

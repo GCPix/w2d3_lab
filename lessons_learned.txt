@@ -8,11 +8,11 @@ The original plan had functions under game that ended up under hidden_word but o
 
 Did you have to digress from your plan as the program developed?
 
-This was probably one of our biggest problems.  The plan was ignored part way through in the haze of trying to get the hidden_word class to work.
+The plan was ignored part way through in the haze of trying to get the hidden_word class to work.
 
 Does each of your classes follow the Single Responsibility principle? Or are any of your classes doing too much?
 
-I think so.  We tried to think of where the responsibility lay before adding anything.  hidden_word held the comparisons etc but the loop and the checks for lives etc was really part of the game itself.
+I think so.  We tried to think of where the responsibility lay before adding anything.  hidden_word held the comparison methods etc but the loop and the checks for lives etc was really part of the game itself.
 
 Did you practice TDD?
 
@@ -20,12 +20,12 @@ in game and player yes but again in the hidden_word section it became more about
 
 Are each of your methods tested? Did you find anything difficult to test?
 
-each method isn't tested at present because of everything above.  I do intend to finish this(not tonight).  I have had a problem writing tests that work for hidden_word, I keep getting undefined method, I am assuming I should be able to reuse functions but I don't know how.
+each method isn't tested at present because of everything above.  I do intend to finish this(not tonight).  I have had a problem writing tests that work for hidden_word, I keep getting undefined method, I am assuming I should be able to reuse functions but I don't know how, I think the functions have to be rewritten, to use as it is now I think we need something we haven't been taught yet.
 
 final comment:
 
 I do feel as though I understand classes better than I did this morning even if we went off piste in terms of what we should have done.
 
-I understand better where sticking to deciding what functions are required, writing tests and then the actual function, or the very least writing them concurrently helps by the time you get to the end.
+I understand better where sticking to deciding what functions are required, writing tests and then the actual function, or the very least writing them concurrently helps by the time you get to the end.  In seperating the workload we hadn't specified the plan well enough hence we tied ourselves in knots by the end.
 
 I need to read the requirements better as I started by trying to take on more than just the MVP.
